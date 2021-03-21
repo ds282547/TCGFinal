@@ -1,0 +1,150 @@
+12/13
+Training time use 8 threads for 10000 games 
+17 sec -> 6 sec 
+
+use Ubuntu of My LAB Computer
+
+12/13 My laptop
+============= 12 threads 120000 games  ==============
+Max Score:79212
+Used Time: 220.648193 sec
+Avg Score every 1200 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 1215.706787, Min Weight = -400.060211
+In Tuple #1: Max Weight = 954.943481, Min Weight = -161.942963
+In Tuple #2: Max Weight = 3598.584473, Min Weight = -448.200317
+In Tuple #3: Max Weight = 481.329865, Min Weight = -157.856003
+In LT Feature: Max Weight = 8330.215820, Min Weight = -205.052429
+In LH Feature: Max Weight = 1032.300659, Min Weight = -526.285461
+Starting to save weight! test
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+=========== single =============
+Max Score:70116
++--------------------+
+|    3   24    6    2|
+|    2    2    2  192|
+|  192 1536  384   12|
+|    1    6    3    1|
++--------------------+
+Used Time: 117.286802 sec
+Avg Score every 1200 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 1171.777832, Min Weight = -325.968506
+In Tuple #1: Max Weight = 865.666077, Min Weight = -142.143661
+In Tuple #2: Max Weight = 3701.007813, Min Weight = -480.950470
+In Tuple #3: Max Weight = 432.922455, Min Weight = -162.309357
+In LT Feature: Max Weight = 8171.270508, Min Weight = -232.189117
+In LH Feature: Max Weight = 990.050476, Min Weight = -489.076324
+======================
+Lockless 12-threads
+Max Score:71811
++--------------------+
+|    3   96  192    3|
+|    2    2   12   48|
+|  192  384 1536   96|
+|    3   24    6    1|
++--------------------+
+Used Time: 20.514015 sec
+Avg Score every 1200 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 1854.227783, Min Weight = -338.893372
+In Tuple #1: Max Weight = 915.393982, Min Weight = -161.396408
+In Tuple #2: Max Weight = 3176.258301, Min Weight = -317.586700
+In Tuple #3: Max Weight = 386.209991, Min Weight = -153.321350
+In LT Feature: Max Weight = 8184.222168, Min Weight = -187.362045
+In LH Feature: Max Weight = 971.191284, Min Weight = -461.144348
+Starting to save weight! test
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+
+12/15 MS 1536
+
++--------------------+
+|   48   12    1    3|
+|    3  192 6144    6|
+|   24    6  768   96|
+|    3   24  384    6|
++--------------------+
+Used Time: 2981.817297 sec
+Avg Score every 100000 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 35606.007812, Min Weight = -19287.919922 
+In Tuple #1: Max Weight = 35959.058594, Min Weight = -14198.427734 
+In Tuple #2: Max Weight = 35948.898438, Min Weight = -28756.835938 
+In Tuple #3: Max Weight = 21049.445312, Min Weight = -9181.658203 
+In LT Feature: Max Weight = 59210.199219, Min Weight = -17398.171875 
+In LH Feature: Max Weight = 27599.068359, Min Weight = -23429.900391 
+Starting to save weight! train_pms_1215_after_1536
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+
+
+Max Score:716256
++--------------------+
+|    2   24    6   96|
+| 3072   48    3    1|
+|    3  384 6144    3|
+|    6    2   12    2|
++--------------------+
+Used Time: 2261.799489 sec
+Avg Score every 100000 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 23940.203125, Min Weight = -5413.109375
+In Tuple #1: Max Weight = 9711.328125, Min Weight = -6036.680176
+In Tuple #2: Max Weight = 49072.207031, Min Weight = -7735.041504
+In Tuple #3: Max Weight = 8777.069336, Min Weight = -4390.209473
+In LT Feature: Max Weight = 206101.265625, Min Weight = -7164.992676
+In LH Feature: Max Weight = 6267.904785, Min Weight = -3163.983154
+Starting to save weight! train_pms_1215_after_3072
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+
+
+12/18 
+
+Retrain Before 1536
+
+Max Score:577878
++--------------------+
+|  768   24   12    6|
+|   48  384    3    2|
+|   12 6144   24    3|
+|    6   12  768    2|
++--------------------+
+Used Time: 52748.666156 sec
+Avg Score every 800000 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 41342.046875, Min Weight = -22137.371094
+In Tuple #1: Max Weight = 38126.937500, Min Weight = -24402.537109
+In Tuple #2: Max Weight = 40587.753906, Min Weight = -27481.507813
+In Tuple #3: Max Weight = 21715.712891, Min Weight = -14325.235352
+In LT Feature: Max Weight = 53687.968750, Min Weight = -20983.583984
+In LH Feature: Max Weight = 18188.890625, Min Weight = -14320.086914
+Starting to save weight! train_1217
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+
+12/18 
+
+Retrain after 1536 
+
+Max Score:611463
++--------------------+
+|    6   12    1  768|
+|    3    6   96   48|
+|    1   48 6144    2|
+|    1   12 1536    2|
++--------------------+
+Used Time: 27289.62973 sec
+Avg Score every 800000 episode save to avg_score_no_merge.csv
+In Tuple #0: Max Weight = 39676.007812, Min Weight = -26462.263672 
+In Tuple #1: Max Weight = 57586.875000, Min Weight = -23669.740234 
+In Tuple #2: Max Weight = 40017.605469, Min Weight = -30602.367188 
+In Tuple #3: Max Weight = 28032.958984, Min Weight = -17694.535156 
+In LT Feature: Max Weight = 104965.109375, Min Weight = -27189.015625 
+In LH Feature: Max Weight = 24357.021484, Min Weight = -9929.288086 
+Starting to save weight! train_pms_1217_after_1536
+Save 6 Tuple...Finished
+Save LH...Finished
+Save LT...Finished
+
